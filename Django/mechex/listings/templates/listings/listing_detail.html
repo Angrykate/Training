@@ -1,0 +1,19 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+
+<h2>{{ Liste.title }}</h2>
+<ul>
+    <li> Description : {{Liste.description}}</li>
+    <li> Solde : {{Liste.solde|yesno}}</li>
+    <li> Year : {{Liste.year}}</li>
+    <li> Type : {{Liste.get_type_display}}</li>
+    {% if Liste.band %}
+    <li> Band : <a href = "{% url 'band-detail' Liste.band.id %}">{{Liste.band}}</a></li>
+    {% endif %}
+</ul>
+
+<a href ="{% url 'listing-change' Liste.id %}">Editer une affiche </a>
+<a href ="{% url 'listing-delete' Liste.id %}">Supprimer une affiche </a>
+<a href="{% url 'listing-list' %}">Retour à toutes les affiches</a>
+{% endblock %}

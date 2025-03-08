@@ -1,0 +1,9 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+<h1>Affiche </h1>
+<ul>
+    {% for l in Liste%}
+    <li><a href = "{% url 'listing-detail' l.id %}">{{l.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

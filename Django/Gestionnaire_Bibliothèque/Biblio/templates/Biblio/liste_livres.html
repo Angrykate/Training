@@ -1,0 +1,77 @@
+{% extends 'Biblio/base.html' %}
+{% block content %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+    }
+    h1, h2 {
+        text-align: center;
+        color: #333;
+    }
+    h1 em {
+        color: #007bff;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    table caption {
+        caption-side: top;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    th, td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+    th {
+        background-color: #007bff;
+        color: #fff;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<h1>Bienvenue sur la page de notre projet <em>Gestionnaire de Bibliothèque</em></h1>
+<h2>Voici ci-dessous la liste de tous nos livres !</h2>
+
+<table>
+    <caption>Liste des livres</caption>
+    <tr>
+        <th>Titre</th>
+        <th>Auteur</th>
+        <th>Catégorie</th>
+        <th>Disponibilité</th>
+    </tr>
+    {% for livre in livres %}
+    <tr>
+        <td><a href="{% url 'detail' livre.id %}">{{ livre.titre }}</a></td>
+        <td>{{ livre.auteur }}</td>
+        <td>{{ livre.categorie }}</td>
+        <td>{{ livre.disponible|yesno:"Oui,Non" }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
