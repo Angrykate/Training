@@ -1,0 +1,85 @@
+Quel est le nom de la plus grande planète du système solaire ? :Jupiter
+Combien de côtés ont un octogone ? :Huit
+Quel est le nom de l’instrument à cordes qui se joue avec un archet ? :Violon
+Qui a écrit la pièce « Hamlet » ? :Shakespeare
+Dans quelle ville se trouve la Tour Eiffel ? :Paris
+Quel est le principal gaz constituant l’atmosphère terrestre ? :Azote
+Qui a peint « La Joconde » ? :De Vinci
+Combien de dents a un adulte en bonne santé ? :Trentedeux
+Quel est le nom de l’océan qui entoure l’Antarctique ? :Austral
+Quel est le symbole chimique de l’or ? :UA
+Qui a écrit « 1984 » ? :Orwell
+Combien de joueurs y a-t-il dans une équipe de football ? :Onze
+Quel est le nom de la plus haute montagne du monde ? :Everest
+Quelle est la monnaie officielle du Japon ? :Yen
+Combien de semaines y a-t-il dans une année ? :Cinquantedeux
+Qui a fondé Microsoft ? :Portes
+Dans quel pays se trouve le Taj Mahal ? :Inde
+Quelle est la plus grande rivière d’Afrique ? :Nul
+Quel est le nom de l’organe responsable de la digestion des aliments ? :Estomac
+Combien de couleurs y a-t-il dans un arc-en-ciel ? :7
+Qui a écrit « Le Petit Prince » ? :SaintExupéry
+Quel est le nom de la plus grande ville du Canada ? :Toronto
+Quel est le nom de l’acteur principal dans « Forrest Gump » ? :Hanks
+Qui a peint « Les Nymphéas » ? :Monet
+Quel est le nom de la plus grande chaîne de montagnes du monde ? :Himalaya
+Combien de planètes ont des anneaux dans le système solaire ? :Quatre
+Quelle est la capitale du Brésil ? :Brasilia
+Qui a écrit « Le Rouge et le Noir » ? :Stendhal
+Quel est le nom du plus grand désert du monde ? :Sahara
+Combien de pieds y a-t-il dans une yard ? :Trois
+Quel est le nom du plus grand animal vivant sur Terre ? :Baleine bleue
+Qui a écrit « Madame Bovary » ? :Flaubert
+Combien de langues officielles y a-t-il en Suisse ? :Quatre
+Quel est le nom de l’océan qui se trouve à l’est de l’Afrique ? :Indien
+Qui a fondé Apple ? :Emplois
+Quel est le nom de la plus haute cascade du monde ? :Ange
+Combien de centimètres y a-t-il dans un mètre ? :Cent
+Qui a écrit « Le Tour du monde en quatre-vingts jours » ? :Verne
+Quel est le nom de la plus grande ville des États-Unis ? :New York
+Quel est le symbole chimique de l’oxygène ? :O
+Quelle est la capitale de l’Allemagne ? :Berlin
+Quel est le plus grand océan du monde ? :Pacifique
+Quel est le nom de la première personne à avoir marché sur la lune ? :Armstrong
+Combien de minutes y a-t-il dans une heure ? :60
+Quel est le plus grand désert du monde ? :Sahara
+Quel est le nom de l’inventeur du téléphone ? :Cloche
+Combien de joueurs y a-t-il dans une équipe de basket-ball ? :5
+Quel est le nom de la première femme pilote américaine à avoir traversé l’Atlantique ? :Earhart
+Quel est le nom de la plus grande ville de Chine ? :Shanghai
+Combien de côtés a un hexagone ? :6
+Quel est le nom de la plus grande île du monde ? :Groenland
+Quel est le nom du cinquième élément ? :Éther
+Quel est le nom de l’acteur principal de la série de films « Rocky » ? :Stallone
+Quel est le nom de la plus grande rivière d’Amérique du Sud ? :Amazone
+Quel est le nom du président américain qui a été assassiné en 1963 ? :Kennedy
+Quel est le nom du plus grand lac d’Afrique ? :Victoria
+Combien de branches y a-t-il au pouvoir législatif américain ? :2
+Quel est le nom de l’actrice principale de la série de films « Hunger Games » ? :Lawrence
+Combien de côtés a un pentagone ? :5
+Quel est le nom du plus grand désert de glace du monde ? :Antarctique
+Quel est le nom du plus grand lac d’Amérique du Nord ? :Supérieur
+Quel est le nom du plus grand fleuve d’Europe ? :Volga
+Combien de joueurs y a-t-il dans une équipe de football américain ? :11
+Quel est le nom de la plus haute montagne d’Afrique ? :Kilimandjaro
+Quel est le plus grand pays du monde ? :Russie
+Quel est le plus grand océan de la planète ? :Pacifique
+Quel est le plus grand désert du monde ? :Sahara
+Quel est le plus grand mammifère terrestre ? :Éléphant
+Quel est le plus grand oiseau volant au monde ? :Albatros
+Quel est le plus grand État américain par superficie ? :Alaska
+Quel est le plus grand pays d’Europe ? :Russie
+Quel est le plus grand fleuve du monde ? :Amazone
+Quel est le plus grand lac du monde ? :Caspienne
+Quel est le plus grand pays producteur de café ? :Brésil
+Quel est le plus grand pays producteur de vin ? :Italie
+Quel est le plus grand pays producteur de thé ? :Chine
+Quel est le plus grand pays producteur de riz ? :Chine
+Quel est le plus grand pays producteur de pétrole ? :États-Unis
+Quel est le plus grand pays producteur de gaz naturel ? :États-Unis
+Quel est le plus grand pays producteur de diamants ? :Russie
+Quel est le plus grand pays producteur de chocolat ? :Côte d’Ivoire
+Quel est le plus grand pays d’Afrique ? :Algérie
+Quel est le plus grand pays d’Amérique latine ? :Brésil
+Quel est le plus grand pays d’Asie par population ? :Chine
+Quel est le plus grand pays musulman du monde ? :Indonésie
