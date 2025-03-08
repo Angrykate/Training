@@ -1,0 +1,6 @@
+package exo;
+
+public interface Guerrier {
+	 int force = 0;
+	 void attaquer();
+}

@@ -1,0 +1,5 @@
+
+public interface Vendu {
+
+	public abstract void vendre(int quantiteVendu);
+}

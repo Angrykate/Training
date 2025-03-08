@@ -1,0 +1,25 @@
+package exo;
+
+public class Nain extends Personnage implements Guerrier, Voleur {
+
+	public Nain(String n, int x, int y, int v) {
+		super(n, x, y, 2);
+
+	}
+
+	@Override
+	public void voler(Personnage p) {
+		
+	}
+
+	@Override
+	public void attaquer() {
+		
+	}
+
+	@Override
+	public String parler() {
+		return "Groumpf";
+	}
+
+}

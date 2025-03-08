@@ -1,0 +1,13 @@
+
+public class Vol {
+	
+	private int id;
+	private int numVol;
+	private String heureDepart;
+	private String destination;
+	
+	public Vol(int id, int numVol,String heureDepart, String destinaton) {
+		
+		
+	}
+}

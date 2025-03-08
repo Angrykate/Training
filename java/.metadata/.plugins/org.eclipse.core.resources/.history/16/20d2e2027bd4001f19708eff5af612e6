@@ -1,0 +1,19 @@
+
+public class PokemonPlante extends Pokemon {
+
+	public PokemonPlante(String name, int hp, int atk) {
+		super(name, hp, atk);
+	}
+
+	@Override
+	public void attaquer(Pokemon p) {
+		if (p.getClass().getName() == "PokemonEau") {
+			p.hp -= 2*this.atk;
+		}else if (p.getClass().getName() == "PokemonPlante" || p.getClass().getName() == "PokemonFeu") {
+			p.hp -= 0.5*this.atk;
+		}else {
+			p.hp -= this.atk;
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	PokemonNormal p = new PokemonNormal("pika",80,10);
+	p.afficher();
+
+	}
+
+}

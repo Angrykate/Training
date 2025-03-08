@@ -1,0 +1,6 @@
+package exo;
+
+public interface Voleur {
+	int dexterite = 0;
+	void voler();
+}

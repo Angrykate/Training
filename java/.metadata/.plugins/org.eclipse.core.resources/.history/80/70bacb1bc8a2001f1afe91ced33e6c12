@@ -1,0 +1,14 @@
+
+public class ProduitAlimentaire extends Produit {
+	private String dateExpiration ;
+	
+	ProduitAlimentaire(String nom, double prix, int quantite,String exp){
+		//super(nom,prix,quantite);
+		this.dateExpiration = exp;
+		
+	}
+	
+	public void afficherInfos() {
+		System.out.println("\nNom: "+this.nom+"\nPrix: "+this.prix+"\nQuantite: "+this.quantite+"\nDate d'expiration: "+this.dateExpiration);
+	}
+}

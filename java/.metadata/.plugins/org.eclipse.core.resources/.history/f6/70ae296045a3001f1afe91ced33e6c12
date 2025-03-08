@@ -1,0 +1,22 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Produit p1 = new Produit("Mayonnaise",750,5);
+		Produit p2 = new Produit();
+		Produit p3 = new Produit("Tomate",20);
+		
+		ProduitAlimentaire p4 = new ProduitAlimentaire("Sardine",350, 10, "07/21/2025");
+		
+		Main.afficherDetailsProduit(p4);
+		
+		/*p1.afficherInfos();
+		p2.afficherInfos();
+		p3.afficherInfos();*/
+		p2.afficherDetails();
+		
+	}
+	public static void afficherDetailsProduit(Produit p) {
+		p.afficherInfos(); 
+		}
+}
