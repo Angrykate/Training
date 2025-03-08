@@ -1,0 +1,49 @@
+.arr{
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.arr h2{
+    margin-top: 30px;
+}
+
+.arr ul{
+    margin-top: 30px;
+}
+
+.arr + div{
+    text-align: center;
+}
+
+.cont1{
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+td,th{
+    border: 1px solid #a5b4fc;
+    padding: 15px;
+}
+
+td {
+    padding: 80px;
+}
+  
+h2 {
+    margin-bottom: 80px;
+}
+  
+h1,
+h2 {
+    text-align: center;
+}
