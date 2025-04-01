@@ -1,0 +1,5 @@
+
+public class main {
+	PokemonNormal p = new PokemonNormal("ali",80,10);
+	p.afficher();
+}

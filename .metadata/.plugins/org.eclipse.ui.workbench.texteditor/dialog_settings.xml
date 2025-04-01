@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="affich"/>
+	</list>
+	<list key="replacehistory">
+		<item value="a"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="afficher"/>
+		<list key="findhistory">
+			<item value="afficher"/>
+		</list>
+	</section>
+</section>

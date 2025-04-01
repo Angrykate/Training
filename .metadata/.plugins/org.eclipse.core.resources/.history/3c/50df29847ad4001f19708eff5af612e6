@@ -1,0 +1,26 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	PokemonNormal p = new PokemonNormal("pika",80,10);
+	PokemonEau p1 = new PokemonEau("pok",100,20);
+	PokemonFeu p2 = new PokemonFeu("pik",120,24);
+	PokemonPlante p3 = new PokemonPlante("bul",300,14);
+	
+	p.afficher();
+	p1.afficher();
+	p2.afficher();
+	p3.afficher();
+	System.out.println("--");
+	
+	p.attaquer(p1);
+	
+	p.afficher();
+	p1.afficher();
+	p2.afficher();
+	p3.afficher();
+
+	}
+
+}

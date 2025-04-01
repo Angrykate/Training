@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Block.largeur&apos; in &apos;Block&apos;&#x0D;&#x0A;- Original project: &apos;First project&apos;&#x0D;&#x0A;- Original element: &apos;Block.largeur&apos;&#x0D;&#x0A;- Getter method name: &apos;getLargeur&apos;&#x0D;&#x0A;- Setter method name: &apos;setLargeur&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;largeur, ...&apos;" flags="589830" getter="getLargeur" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{Block.java[Block^largeur" insertion="1" setter="setLargeur" stamp="1729912101360" version="1.0" visibility="1"/>
+</session>

@@ -1,0 +1,52 @@
+
+public class Produit {
+	
+	protected String nom;
+	protected double prix;
+	protected int quantite;
+
+	Produit (String nom, double prix, int quantite){
+	
+		this.nom = nom;
+		this.prix = prix;
+		this.quantite = quantite;
+	}
+	
+	Produit(){}
+	Produit(String nom, double prix){
+		this.nom = nom;
+		this.prix = prix;
+	}
+	
+	public void afficherInfos() {
+		System.out.println("\nNom: "+this.nom+"\nPrix: "+this.prix+"\nQuantite: "+this.quantite);
+	}
+	
+	public String getNom() {
+		return this.nom;
+	}
+	
+	public void setNom(String nvNom) {
+		this.nom = nvNom;
+	}
+	
+	public Double getPrix() {
+		return this.prix;
+	}
+	
+	public void setPrix(Double nvPrix) {
+		this.prix = nvPrix;
+	}
+	
+	public int getQuantite() {
+		return this.quantite;
+	}
+	
+	public void setQuantite(int nvQuantite) {
+		this.quantite = nvQuantite;
+	}
+	
+
+}
+
+

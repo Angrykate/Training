@@ -1,0 +1,6 @@
+
+public class main {
+	PokemonNormal ton = new PokemonNormal("ali",80,10);
+	
+	System.out.println("tom");
+}
