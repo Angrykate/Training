@@ -1,0 +1,78 @@
+{% extends 'Biblio/base.html' %}
+{% block content %}
+<style>
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1,h2 {
+        text-align: center;
+        color: #333;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    ul li strong {
+        color: #007bff;
+    }
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .back-link {
+        margin-bottom: 20px;
+        display: block;
+        text-align: left;
+    }
+    .description {
+        background-color: #fff;
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        line-height: 1.8;
+        color: #1F2A5A;
+        font-size: 1.1em;
+    }
+    .description p {
+        margin: 10px 0;
+    }
+    .description h3 {
+        text-align: left;
+        color: #007bff;
+        margin-bottom: 15px;
+    }
+</style>
+
+<a href="{% url 'liste' %}" class="back-link">Affichage de la liste des livres</a>
+<h1>{{ livres.titre }}</h1>
+<ul>
+    <li><strong>Auteur:</strong> {{ livres.auteur }}</li>
+    <li><strong>Date de publication:</strong> {{ livres.date_publication }}</li>
+    <li><strong>Catégorie :</strong> {{ livres.categorie }}</li>
+    <li><strong>Disponible:</strong> {{ livres.disponible|yesno:"Oui,Non" }}</li>
+</ul>
+<h2> Synopsis </h2>
+<div class="description">
+    {{ livres.description }}
+</div>
+{% endblock %}
